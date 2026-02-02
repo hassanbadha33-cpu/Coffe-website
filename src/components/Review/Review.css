@@ -1,0 +1,57 @@
+.review-section {
+  background: #13131a;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.review-title {
+  color: #fff;
+  /* font-size: 3rem; */
+  margin-bottom: 50px;
+}
+
+.review-title span {
+  color: #c7a17a;
+}
+
+.review-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.review-card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  background: #1a1a1a;
+}
+
+.quote-icon {
+  font-size: 5rem;
+  color: #c7a17a;
+  line-height: 1;
+}
+
+.review-text {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.user-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.review-card h3 {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.stars {
+  color: #c7a17a;
+}

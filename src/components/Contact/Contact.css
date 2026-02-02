@@ -1,0 +1,86 @@
+.connect-section {
+  padding: 80px 10%;
+  background: #010103; /* Matches your screenshot exactly */
+  text-align: center;
+}
+
+.connect-header {
+  color: #fff;
+  /* font-size: 3.5rem; */
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.connect-header span {
+  color: #c7a17a;
+}
+
+.connect-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.connect-map-box {
+  flex: 1 1 400px;
+  height: 400px;
+}
+
+.connect-map-box iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.connect-form-container {
+  flex: 1 1 400px;
+  text-align: left;
+}
+
+.connect-form-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+}
+
+.connect-field {
+  width: 100%;
+  background: transparent;
+  border: 1.5px solid #ffffff !important; /* Forces white border */
+  padding: 15px;
+  color: #ffffff !important;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* THE BUTTON - UNIQUE NAMES AND FORCED COLORS */
+.connect-action-area {
+  margin-top: 10px;
+  display: block;
+}
+
+.connect-submit-btn {
+  background-color: #6a994e !important; /* Bright Green */
+  color: #ffffff !important;           /* White text */
+  padding: 15px 40px !important;       /* Large size */
+  border: none !important;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 200px;
+}
+
+.connect-submit-btn:hover {
+  background-color: #c7a17a !important; /* Changes to tan on hover */
+  color: #000 !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .connect-wrapper {
+    flex-direction: column;
+  }
+}
