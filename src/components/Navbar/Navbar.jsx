@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Navbar.css";
+import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = () => {
 
         {/* LOGO */}
         <div className="navbar-logo">
-          <img src="/src/assets/logo.png" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </div>
 
         {/* LINKS */}
