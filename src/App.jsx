@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Menu from "./components/Menu/Menu";
@@ -20,7 +20,7 @@ function App() {
       <Hero />
       <About />
       <Menu />
-      <Products />
+      <Products />  
       <Review />
       <Contact />
       <Blogs />
