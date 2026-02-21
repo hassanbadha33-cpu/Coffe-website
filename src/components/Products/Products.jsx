@@ -5,9 +5,9 @@ import product2 from '../../assets/product-2.png'
 import product3 from '../../assets/product-3.png'
 const Products = () => {
   const productData = [
-    { id: 1, name: "Columbia Coffee", price: "$15.99", oldPrice: "$20.99", img: {product1}},
-    { id: 2, name: "Peru Fresh Coffee", price: "$11.99", oldPrice: "$20.99", img: {product2} },
-    { id: 3, name: "Nicaragua Coffee", price: "$16.00", oldPrice: "$20.99", img: {product3} },
+    { id: 1, name: "Columbia Coffee", price: "$15.99", oldPrice: "$20.99", img: product1},
+    { id: 2, name: "Peru Fresh Coffee", price: "$11.99", oldPrice: "$20.99", img: product2 },
+    { id: 3, name: "Nicaragua Coffee", price: "$16.00", oldPrice: "$20.99", img: product3 },
   ];
 
 

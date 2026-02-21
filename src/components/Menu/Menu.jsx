@@ -42,7 +42,7 @@ function Menu() {
 
 
    <div className="menu-card">
-          <img src="src/assets/menu-3.png" />
+          <img src={menu1} />
           <h3>Mocha</h3>
           <p className="price">
             $15.99 <span>$20.99</span>
@@ -54,7 +54,7 @@ function Menu() {
 
 
    <div className="menu-card">
-          <img src="src/assets/menu-3.png" />
+          <img src={menu2} />
           <h3>Mocha</h3>
           <p className="price">
             $15.99 <span>$20.99</span>
@@ -65,7 +65,7 @@ function Menu() {
 
 
            <div className="menu-card">
-          <img src="src/assets/menu-3.png" />
+          <img src={menu3} />
           <h3>Mocha</h3>
           <p className="price">
             $15.99 <span>$20.99</span>
