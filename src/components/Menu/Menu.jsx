@@ -1,4 +1,7 @@
 import "./Menu.css";
+import menu1 from '../../assets/menu-1.png'
+import menu2 from '../../assets/menu-2.png'
+import menu3 from '../../assets/menu-3.png'
 
 function Menu() {
   return (
@@ -9,7 +12,7 @@ function Menu() {
 
       <div className="menu-container">
         <div className="menu-card">
-          <img src="src/assets/menu-1.png" />
+          <img src={menu1} />
           <h3>Espresso</h3>
           <p className="price">
             $15.99 <span>$20.99</span>
@@ -18,7 +21,7 @@ function Menu() {
         </div>
 
         <div className="menu-card">
-          <img src="src/assets/menu-2.png" />
+          <img src={menu2} />
           <h3>Black Coffee</h3>
           <p className="price">
             $15.99 <span>$20.99</span>
@@ -27,7 +30,7 @@ function Menu() {
         </div>
 
         <div className="menu-card">
-          <img src="src/assets/menu-3.png" />
+          <img src={menu3} />
           <h3>Mocha</h3>
           <p className="price">
             $15.99 <span>$20.99</span>

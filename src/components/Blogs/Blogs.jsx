@@ -1,5 +1,9 @@
 import React from 'react';
 import './Blogs.css';
+import blog1 from '../../assets/blog-1.jpeg'
+
+
+
 
 const Blogs = () => {
   const blogPosts = [
@@ -9,7 +13,7 @@ const Blogs = () => {
       author: "Admin",
       date: "21st May, 2021",
       desc: "Revitalize your senses with our delicious coffee blends.",
-      img: "src/assets/blog-1.jpeg" 
+      img: blog1
     },
     {
       id: 2,
@@ -17,7 +21,7 @@ const Blogs = () => {
       author: "Admin",
       date: "1st Jan, 2021",
       desc: "Kickstart your morning with our delicious, refreshing coffee.",
-      img: "src/assets/blog-1.jpeg" 
+       img: blog1
     },
     {
       id: 3,
@@ -25,7 +29,7 @@ const Blogs = () => {
       author: "Admin",
       date: "21st Feb, 2023",
       desc: "Indulge in the ultimate coffee refreshment, anytime, anywhere.",
-      img: "src/assets/71LdS7Sz2DL.jpg" 
+      img: blog1
     }
   ];
 

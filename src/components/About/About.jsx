@@ -9,7 +9,7 @@ const About = () => {
         {/* LEFT SIDE: Large Background Image */}
         <div className="about-image-side">
           <img 
-            src="src/assets/about-img.jpeg" 
+            src={aboutimg} 
             alt="Construction background" 
             className="main-visual"
           />
